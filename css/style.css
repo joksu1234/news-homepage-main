@@ -1,0 +1,60 @@
+:root {
+    --mobile: 375px;
+    --desktop: 1440px;
+
+    --orange: hsl(35, 77%, 62%);
+    --red: hsl(5, 85%, 63%);
+
+    --white: hsl(36, 100%, 99%);
+    --gray: hsl(233, 8%, 79%);
+    --darkgray: hsl(236, 13%, 42%);
+    --darkergray: hsl(240, 100%, 5%);
+
+    --fs: 15px;
+
+    --ff: [Inter](https://fonts.google.com/specimen/Inter);
+    --fw400: 400;
+    --fw700: 700;
+    --fw800: 800;
+}
+
+p {
+    font-size: var(--fs);
+}
+
+.boxes img {
+  width: 7rem;
+}
+
+.color-orange {
+    color: var(--orange);
+}
+
+.bg-redd {
+    background-color: var(--red);
+}
+
+.txt-white {
+    color: var(--white);
+}
+
+.txt-gray {
+    color: var(--gray);
+}
+
+.fw-400 {
+    font-weight: var(--fw400)
+}
+
+.fw-700 {
+    font-weight: var(--fw700);
+}
+
+.fw-800 {
+    font-weight: var(--fw800);
+}
+
+
+.bg-darkergray {
+    background-color: var(--darkergray);
+}
