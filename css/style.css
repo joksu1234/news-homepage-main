@@ -12,14 +12,26 @@
 
     --fs: 15px;
 
-    --ff: [Inter](https://fonts.google.com/specimen/Inter);
+    --ff: 'Teko', sans-serif;;
     --fw400: 400;
     --fw700: 700;
     --fw800: 800;
 }
 
+body {
+    font-family: var(--ff);
+}
+
 p {
     font-size: var(--fs);
+}
+
+.fs-15px {
+    font-size: var(--fs);
+}
+
+.fw-900 {
+    font-weight: 900;
 }
 
 .boxes img {
@@ -57,4 +69,35 @@ p {
 
 .bg-darkergray {
     background-color: var(--darkergray);
+}
+
+.btn-sharpy {
+    border-radius: 0;
+}
+
+.letter-spacing {
+    letter-spacing: 5px;
+}
+
+.fs-bigger {
+    font-size: xx-large;
+}
+
+.btn-hover:hover {
+    background-color: var(--darkergray);
+    color: var(--white);
+}
+
+.nav-link:hover {
+    color: var(--orange);
+}
+
+.news-hover:hover {
+    color: var(--orange);
+    cursor: pointer;
+}
+
+.boxes-hover:hover {
+    color: var(--red);
+    cursor: pointer;
 }
